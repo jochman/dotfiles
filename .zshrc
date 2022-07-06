@@ -107,6 +107,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+source $HOME/.nvm/nvm.sh
+
 export OUTPUT_SERVICE_FOLDER="$HOME/dev/output"
 export DEV_DIR="$HOME/dev/jit-ops"
 export STAGE="dev"
